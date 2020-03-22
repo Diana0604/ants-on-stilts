@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ants-on-stilts/static/css/main.b1c8d850.chunk.css",
-    "main.js": "/ants-on-stilts/static/js/main.c245deb5.chunk.js",
-    "main.js.map": "/ants-on-stilts/static/js/main.c245deb5.chunk.js.map",
+    "main.css": "/ants-on-stilts/static/css/main.db17674c.chunk.css",
+    "main.js": "/ants-on-stilts/static/js/main.a4f5e0bd.chunk.js",
+    "main.js.map": "/ants-on-stilts/static/js/main.a4f5e0bd.chunk.js.map",
     "runtime-main.js": "/ants-on-stilts/static/js/runtime-main.bba77bf4.js",
     "runtime-main.js.map": "/ants-on-stilts/static/js/runtime-main.bba77bf4.js.map",
-    "static/js/2.d37d35aa.chunk.js": "/ants-on-stilts/static/js/2.d37d35aa.chunk.js",
-    "static/js/2.d37d35aa.chunk.js.map": "/ants-on-stilts/static/js/2.d37d35aa.chunk.js.map",
+    "static/js/2.4648625d.chunk.js": "/ants-on-stilts/static/js/2.4648625d.chunk.js",
+    "static/js/2.4648625d.chunk.js.map": "/ants-on-stilts/static/js/2.4648625d.chunk.js.map",
     "index.html": "/ants-on-stilts/index.html",
-    "precache-manifest.bdb2bba549ba16399d1d81afd49e1473.js": "/ants-on-stilts/precache-manifest.bdb2bba549ba16399d1d81afd49e1473.js",
+    "precache-manifest.7dee015d90956ed2a39c769857e7ba05.js": "/ants-on-stilts/precache-manifest.7dee015d90956ed2a39c769857e7ba05.js",
     "service-worker.js": "/ants-on-stilts/service-worker.js",
-    "static/css/main.b1c8d850.chunk.css.map": "/ants-on-stilts/static/css/main.b1c8d850.chunk.css.map",
-    "static/js/2.d37d35aa.chunk.js.LICENSE.txt": "/ants-on-stilts/static/js/2.d37d35aa.chunk.js.LICENSE.txt",
+    "static/css/main.db17674c.chunk.css.map": "/ants-on-stilts/static/css/main.db17674c.chunk.css.map",
+    "static/js/2.4648625d.chunk.js.LICENSE.txt": "/ants-on-stilts/static/js/2.4648625d.chunk.js.LICENSE.txt",
     "static/media/Andy.png": "/ants-on-stilts/static/media/Andy.4ada2d79.png",
     "static/media/Diana.png": "/ants-on-stilts/static/media/Diana.4d14b9bd.png",
     "static/media/Eva.png": "/ants-on-stilts/static/media/Eva.cc558588.png",
@@ -20,12 +20,13 @@
     "static/media/Paul.png": "/ants-on-stilts/static/media/Paul.504fe1b5.png",
     "static/media/Qiu.png": "/ants-on-stilts/static/media/Qiu.75c930fb.png",
     "static/media/crumpet.png": "/ants-on-stilts/static/media/crumpet.1fe837da.png",
-    "static/media/logo.png": "/ants-on-stilts/static/media/logo.0a43bb8f.png"
+    "static/media/logo.png": "/ants-on-stilts/static/media/logo.0a43bb8f.png",
+    "static/media/manifesto.png": "/ants-on-stilts/static/media/manifesto.463f30ab.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bba77bf4.js",
-    "static/js/2.d37d35aa.chunk.js",
-    "static/css/main.b1c8d850.chunk.css",
-    "static/js/main.c245deb5.chunk.js"
+    "static/js/2.4648625d.chunk.js",
+    "static/css/main.db17674c.chunk.css",
+    "static/js/main.a4f5e0bd.chunk.js"
   ]
 }

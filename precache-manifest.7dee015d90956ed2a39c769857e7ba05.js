@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e58a44dc339267472bc62608b81148f",
+    "revision": "b1660e8cd0e84fc47c556d9813655596",
     "url": "/ants-on-stilts/index.html"
   },
   {
-    "revision": "7f90a1336122b66bafd2",
-    "url": "/ants-on-stilts/static/css/main.b1c8d850.chunk.css"
+    "revision": "40f50892c6bea9e114f7",
+    "url": "/ants-on-stilts/static/css/main.db17674c.chunk.css"
   },
   {
-    "revision": "d86eacec113ecebe8ac6",
-    "url": "/ants-on-stilts/static/js/2.d37d35aa.chunk.js"
+    "revision": "73cf58ab30b77ff8b292",
+    "url": "/ants-on-stilts/static/js/2.4648625d.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/ants-on-stilts/static/js/2.d37d35aa.chunk.js.LICENSE.txt"
+    "url": "/ants-on-stilts/static/js/2.4648625d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f90a1336122b66bafd2",
-    "url": "/ants-on-stilts/static/js/main.c245deb5.chunk.js"
+    "revision": "40f50892c6bea9e114f7",
+    "url": "/ants-on-stilts/static/js/main.a4f5e0bd.chunk.js"
   },
   {
     "revision": "090c4a0576092b4f3614",
@@ -58,5 +58,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0a43bb8fe3b8785b5b584c69d3c9c8ef",
     "url": "/ants-on-stilts/static/media/logo.0a43bb8f.png"
+  },
+  {
+    "revision": "463f30ab3a87b3b435ff2e4c9252ec24",
+    "url": "/ants-on-stilts/static/media/manifesto.463f30ab.png"
   }
 ]);
