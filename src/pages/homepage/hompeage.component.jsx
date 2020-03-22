@@ -21,42 +21,50 @@ const ants = [
     {
         key: 1,
         src: andy,
-        alt: "andy"
+        name: "Andy Pandy",
+        title: "Play Keeper"
     },
     {
         key: 2,
         src: diana,
-        alt: "diana"
+        name: "Diana Vallverdu i Cabrera Bayes Bean Borras Casanovas de Luna Cabrera Baro de Dios Sampsons Cabrera Vayreda Colea Margenat Badia",
+        title: "Logic Keeper"
     },
     {
         key: 3,
         src: eva,
-        alt: "eva"
+        name: "Ha Lee (Eva)",
+        title: "Keepers Keeper"
     },
     {
         key: 4,
         src: lucy,
-        alt: "lucy"
+        name: "Lucy",
+        title: "Time Keeper"
     },
     {
         key: 5,
         src: mischa,
-        alt: "mischa"
+        name: "Mischa Jones",
+        title: "Inner Piece Keeper"
     },
     {
         key: 6,
         src: paul,
-        alt: "paul"
+        name: "Paule H. Barns",
+        title: "Kind Giant, Keeper of Tech"
     },
     {
         key: 7,
         src: qiu,
-        alt: "qiu"
+        name: "Super Qiu",
+        title: "Crazy Keeper"
     },
     {
         key: 8,
         src: crumpet,
-        alt: "crumpet"
+        name: "Qrrrrumpet",
+        title: "The Qrumpet"
     }
 ]
 
