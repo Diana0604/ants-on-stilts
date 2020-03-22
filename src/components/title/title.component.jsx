@@ -10,11 +10,3 @@ const Title = (props) => (
 );
 
 export default Title;
-/*
-const Label = props => <span>{props.children}</span>
-const Button = props => {
-    const Inner = props.inner; // Note: variable name _must_ start with a capital letter 
-    return <button><Inner>Foo</Inner></button>
-}
-const Page = () => <Button inner={Label}/>
-*/
