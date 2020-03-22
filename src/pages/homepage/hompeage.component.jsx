@@ -43,7 +43,7 @@ const ants = [
         key: 4,
         src: lucy,
         name: "Lucy",
-        title: "Time Keeper"
+        title: "Track Keeper"
     },
     {
         key: 5,
