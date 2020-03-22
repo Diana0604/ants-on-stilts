@@ -74,7 +74,7 @@ const ants = [
 const HomePage = () => (    
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
-        <CardList elements={ants}></CardList>
+        <CardList elements={ants} title="Who We Are"></CardList>
         <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
     </div>
 );
