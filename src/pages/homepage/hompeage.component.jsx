@@ -12,6 +12,7 @@ import lucy from './assets/Lucy.png';
 import mischa from './assets/Mischa.png';
 import paul from './assets/Paul.png';
 import qiu from './assets/Qiu.png';
+import crumpet from './assets/crumpet.png'
 //styles
 import './homepage.styles.scss'
 
@@ -51,6 +52,11 @@ const ants = [
         key: 7,
         src: qiu,
         alt: "qiu"
+    },
+    {
+        key: 8,
+        src: crumpet,
+        alt: "crumpet"
     }
 ]
 

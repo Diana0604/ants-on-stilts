@@ -1,12 +1,14 @@
 import React from 'react';
+//components
+import Card from '../card/card.component';
 //styles
 import './cardlist.styles.scss';
 
 const CardList = (props) => (
-  <div className = "cardlist">
+  <div className = "card-list">
     {
         props.elements.map(element => (
-        <img key={element.key} src={element.src} alt={element.alt} className="card-img"></img>
+        <Card element={element} key={element.key} ></Card>
         ))
     }
   </div>  
