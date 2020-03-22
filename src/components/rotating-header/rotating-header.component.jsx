@@ -4,7 +4,7 @@ import './rotating-header.styles.scss'
 
 const RotatingHeader = (props) => (
     <header className="rotating-header">
-        <img src={props.src} className="header-image" alt="header-image"/>
+        <img src={props.src} className="header-image" alt={props.alt}/>
     </header>
 );
 

@@ -18,44 +18,51 @@ import './homepage.styles.scss'
 const ants = [
     {
         key: 1,
-        src: andy
+        src: andy,
+        alt: "andy"
     },
     {
         key: 2,
-        src: diana
+        src: diana,
+        alt: "diana"
     },
     {
         key: 3,
-        src: eva
+        src: eva,
+        alt: "eva"
     },
     {
         key: 4,
-        src: lucy
+        src: lucy,
+        alt: "lucy"
     },
     {
         key: 5,
-        src: mischa
+        src: mischa,
+        alt: "mischa"
     },
     {
         key: 6,
-        src: paul
+        src: paul,
+        alt: "paul"
     },
     {
         key: 7,
-        src: qiu
+        src: qiu,
+        alt: "qiu"
     }
 ]
 
 const HomePage = () => (    
     <div className="homepage">
-        <RotatingHeader src={logo}></RotatingHeader>
+        <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <header className="hp-logo-header">
             <img src={logo} className="hp-logo" alt="logo" />
         </header>
         <div className="ants">
             {
             ants.map(ant => (
-                <img key={ant.key} src={ant.src} className="ant-picture"></img>
+                <img key={ant.key} src={ant.src} alt={ant.alt} className="ant-picture"></img>
             ))
             }
         </div>
