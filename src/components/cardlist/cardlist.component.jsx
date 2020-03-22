@@ -1,13 +1,13 @@
 import React from 'react';
 //components
 import Card from '../card/card.component';
+import Title from '../title/title.component'
 //styles
 import './cardlist.styles.scss';
 
 const CardList = (props) => (
   <div className="card-list-wrapper">
-    <h1 className="title">{props.title}</h1>
-    <hr></hr>
+    <Title title={props.title}></Title>
     <div className = "card-list">
       {
           props.elements.map(element => (
