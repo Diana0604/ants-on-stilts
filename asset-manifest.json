@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/github.io/ants-on-stilts/static/css/main.5f361e03.chunk.css",
-    "main.js": "/github.io/ants-on-stilts/static/js/main.48c5c56b.chunk.js",
-    "main.js.map": "/github.io/ants-on-stilts/static/js/main.48c5c56b.chunk.js.map",
-    "runtime-main.js": "/github.io/ants-on-stilts/static/js/runtime-main.1ef096d8.js",
-    "runtime-main.js.map": "/github.io/ants-on-stilts/static/js/runtime-main.1ef096d8.js.map",
-    "static/js/2.6f26d44d.chunk.js": "/github.io/ants-on-stilts/static/js/2.6f26d44d.chunk.js",
-    "static/js/2.6f26d44d.chunk.js.map": "/github.io/ants-on-stilts/static/js/2.6f26d44d.chunk.js.map",
-    "index.html": "/github.io/ants-on-stilts/index.html",
-    "precache-manifest.58cdaefa7defb0f168d6b3c78a751218.js": "/github.io/ants-on-stilts/precache-manifest.58cdaefa7defb0f168d6b3c78a751218.js",
-    "service-worker.js": "/github.io/ants-on-stilts/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/github.io/ants-on-stilts/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.6f26d44d.chunk.js.LICENSE.txt": "/github.io/ants-on-stilts/static/js/2.6f26d44d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/github.io/ants-on-stilts/static/media/logo.5d5d9eef.svg"
+    "main.css": "/ants-on-stilts/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ants-on-stilts/static/js/main.bf1e89e7.chunk.js",
+    "main.js.map": "/ants-on-stilts/static/js/main.bf1e89e7.chunk.js.map",
+    "runtime-main.js": "/ants-on-stilts/static/js/runtime-main.bba77bf4.js",
+    "runtime-main.js.map": "/ants-on-stilts/static/js/runtime-main.bba77bf4.js.map",
+    "static/js/2.6f26d44d.chunk.js": "/ants-on-stilts/static/js/2.6f26d44d.chunk.js",
+    "static/js/2.6f26d44d.chunk.js.map": "/ants-on-stilts/static/js/2.6f26d44d.chunk.js.map",
+    "index.html": "/ants-on-stilts/index.html",
+    "precache-manifest.3fbfda56215c4a412a5f92ef8f80803c.js": "/ants-on-stilts/precache-manifest.3fbfda56215c4a412a5f92ef8f80803c.js",
+    "service-worker.js": "/ants-on-stilts/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ants-on-stilts/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6f26d44d.chunk.js.LICENSE.txt": "/ants-on-stilts/static/js/2.6f26d44d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ants-on-stilts/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1ef096d8.js",
+    "static/js/runtime-main.bba77bf4.js",
     "static/js/2.6f26d44d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.48c5c56b.chunk.js"
+    "static/js/main.bf1e89e7.chunk.js"
   ]
 }
