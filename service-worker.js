@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ants-on-stilts/precache-manifest.e8d48fe579a1f6a5c7367a5bb03506a0.js"
+  "/ants-on-stilts/precache-manifest.55fba8db6be1b19d9cc88923e506d5c6.js"
 );
 
 self.addEventListener('message', (event) => {
