@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Diana0604/ants-on-stiltss/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Diana0604/ants-on-stiltss/static/js/main.955a317b.chunk.js",
-    "main.js.map": "/Diana0604/ants-on-stiltss/static/js/main.955a317b.chunk.js.map",
-    "runtime-main.js": "/Diana0604/ants-on-stiltss/static/js/runtime-main.38ccf3db.js",
-    "runtime-main.js.map": "/Diana0604/ants-on-stiltss/static/js/runtime-main.38ccf3db.js.map",
-    "static/js/2.6f26d44d.chunk.js": "/Diana0604/ants-on-stiltss/static/js/2.6f26d44d.chunk.js",
-    "static/js/2.6f26d44d.chunk.js.map": "/Diana0604/ants-on-stiltss/static/js/2.6f26d44d.chunk.js.map",
-    "index.html": "/Diana0604/ants-on-stiltss/index.html",
-    "precache-manifest.2412170b0715e5ef233641ae23471abf.js": "/Diana0604/ants-on-stiltss/precache-manifest.2412170b0715e5ef233641ae23471abf.js",
-    "service-worker.js": "/Diana0604/ants-on-stiltss/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Diana0604/ants-on-stiltss/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.6f26d44d.chunk.js.LICENSE.txt": "/Diana0604/ants-on-stiltss/static/js/2.6f26d44d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Diana0604/ants-on-stiltss/static/media/logo.5d5d9eef.svg"
+    "main.css": "/github.io/ants-on-stilts/static/css/main.5f361e03.chunk.css",
+    "main.js": "/github.io/ants-on-stilts/static/js/main.48c5c56b.chunk.js",
+    "main.js.map": "/github.io/ants-on-stilts/static/js/main.48c5c56b.chunk.js.map",
+    "runtime-main.js": "/github.io/ants-on-stilts/static/js/runtime-main.1ef096d8.js",
+    "runtime-main.js.map": "/github.io/ants-on-stilts/static/js/runtime-main.1ef096d8.js.map",
+    "static/js/2.6f26d44d.chunk.js": "/github.io/ants-on-stilts/static/js/2.6f26d44d.chunk.js",
+    "static/js/2.6f26d44d.chunk.js.map": "/github.io/ants-on-stilts/static/js/2.6f26d44d.chunk.js.map",
+    "index.html": "/github.io/ants-on-stilts/index.html",
+    "precache-manifest.58cdaefa7defb0f168d6b3c78a751218.js": "/github.io/ants-on-stilts/precache-manifest.58cdaefa7defb0f168d6b3c78a751218.js",
+    "service-worker.js": "/github.io/ants-on-stilts/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/github.io/ants-on-stilts/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6f26d44d.chunk.js.LICENSE.txt": "/github.io/ants-on-stilts/static/js/2.6f26d44d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/github.io/ants-on-stilts/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.38ccf3db.js",
+    "static/js/runtime-main.1ef096d8.js",
     "static/js/2.6f26d44d.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.955a317b.chunk.js"
+    "static/js/main.48c5c56b.chunk.js"
   ]
 }
