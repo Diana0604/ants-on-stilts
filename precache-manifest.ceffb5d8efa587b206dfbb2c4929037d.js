@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1660e8cd0e84fc47c556d9813655596",
+    "revision": "0e86eae6aa2283b17cacb6a56c864b74",
     "url": "/ants-on-stilts/index.html"
   },
   {
