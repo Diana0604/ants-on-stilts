@@ -79,7 +79,10 @@ const HomePage = () => (
         <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
         <Title title="Check Out Our Projects!"></Title>
         <div className="linkcrumpet">
-            <a href="#/qrumpet"><p><img src={crumpet} alt="qrumpet"></img></p></a>
+            <a href="#/qrumpet">
+            <p><button>Qrumpet Show</button></p>
+            <p><img src={crumpet} alt="qrumpet"></img></p>
+            </a>
         </div>
     </div>
 );
