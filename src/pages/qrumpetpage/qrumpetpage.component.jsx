@@ -6,6 +6,9 @@ import RotatingHeader from '../../components/rotating-header/rotating-header.com
 import './qrumpetpage.styles.scss';
 //assets
 import qrumpets from './assets/qrumpets.png';
+import allready from './assets/allready.png';
+import SideBySide from '../../components/sidebyside/sidebyside.component';
+//attempt list
 const attemptList = [
     {
         number: "Attempt 146,003.",
@@ -36,26 +39,26 @@ const attemptList = [
 
 const QrumpetPage = () => (
     <div className="qrumpetpage">
-        <Title title="The Qrumpet Show"></Title>
         <RotatingHeader src={qrumpets} alt="qrumpet"></RotatingHeader>
         <div className="container">
+            <Title title="The Qrumpet Show"></Title>
+            <SideBySide>
             {attemptList.map(attempt => (
-                <p><b>{attempt.number}</b> {attempt.text}</p>
+                <p key={attempt.number}><b>{attempt.number}</b> {attempt.text}</p>
             ))}
-            <h1>Our Goal</h1>
-            <hr></hr>
+            <img src={allready} alt="allready"></img>
+            </SideBySide>
+            <Title title="Our Goal"></Title>
             <ul>
-                <li>Send The Crumpet To The Wall</li>
+                <li>Send The Crumpet Through The Wall</li>
             </ul>
-            <h1>How To Get There!</h1>
-            <hr></hr>
+            <Title title="How To Get There!"></Title>
             <ul>
                 <li>Perseverence</li>
                 <li>Wholesomeness</li>
-                <li>Faith</li>
+                <li>Faith in the process</li>
             </ul>
-            <h1>Our Research</h1>
-            <hr></hr>
+            <Title title="Our Research"></Title>
             <ul>
                 <li>Quantum Tunneling</li>
             </ul>
