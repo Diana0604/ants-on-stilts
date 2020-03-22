@@ -1,6 +1,7 @@
 import React from 'react';
 //components
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
+import CardList from '../../components/cardlist/cardlist.component';
 //logo
 import logo from './assets/logo.png';
 //ants
@@ -56,17 +57,7 @@ const ants = [
 const HomePage = () => (    
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
-        <header className="hp-logo-header">
-            <img src={logo} className="hp-logo" alt="logo" />
-        </header>
-        <div className="ants">
-            {
-            ants.map(ant => (
-                <img key={ant.key} src={ant.src} alt={ant.alt} className="ant-picture"></img>
-            ))
-            }
-        </div>
-
+        <CardList elements={ants}></CardList>
     </div>
 );
 
