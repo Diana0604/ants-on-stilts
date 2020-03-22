@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route} from 'react-router-dom';
+import { HashRouter, Switch, Route } from "react-router-dom";
 //import logo from './logo.png';
 import './App.css';
 
@@ -14,10 +14,14 @@ const QrumpetPage = () => (
 class App extends Component {
   render () {
     return (
-      <div>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/qrumpet" component={QrumpetPage}/>
-      </div>
+      <HashRouter basename = "/ants-on-stilts">
+        <div>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route exact path="/qrumpet" component={QrumpetPage}/>
+          </Switch>
+        </div>
+      </HashRouter>
     );
   }
 }
