@@ -34,7 +34,7 @@ const ants = [
         key: 3,
         src: eva,
         name: "Ha Lee (Eva)",
-        title: "Keepers Keeper"
+        title: "Keeper Keeper/Orange Keeper"
     },
     {
         key: 4,
@@ -46,7 +46,7 @@ const ants = [
         key: 5,
         src: mischa,
         name: "Mischa Jones",
-        title: "Inner Piece Keeper"
+        title: "Nut Keeper"
     },
     {
         key: 6,
@@ -58,7 +58,7 @@ const ants = [
         key: 7,
         src: qiu,
         name: "Super Qiu",
-        title: "Crazy Keeper"
+        title: "Thrust Keeper"
     },
     {
         key: 8,
