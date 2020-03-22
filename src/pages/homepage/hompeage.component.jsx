@@ -2,6 +2,7 @@ import React from 'react';
 //components
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import CardList from '../../components/cardlist/cardlist.component';
+import BigImage from '../../components/bigimage/bigimage.component';
 //logo
 import logo from './assets/logo.png';
 //ants
@@ -74,7 +75,7 @@ const HomePage = () => (
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <CardList elements={ants}></CardList>
-        <img src= {manifesto}></img>
+        <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
     </div>
 );
 
