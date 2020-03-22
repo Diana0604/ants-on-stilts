@@ -12,9 +12,11 @@ import lucy from './assets/Lucy.png';
 import mischa from './assets/Mischa.png';
 import paul from './assets/Paul.png';
 import qiu from './assets/Qiu.png';
-import crumpet from './assets/crumpet.png'
+import crumpet from './assets/crumpet.png';
+//manifesto
+import manifesto from './assets/manifesto.png';
 //styles
-import './homepage.styles.scss'
+import './homepage.styles.scss';
 
 //ants
 const ants = [
@@ -72,6 +74,7 @@ const HomePage = () => (
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <CardList elements={ants}></CardList>
+        <img src= {manifesto}></img>
     </div>
 );
 
