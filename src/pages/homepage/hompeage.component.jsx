@@ -1,4 +1,6 @@
 import React from 'react';
+//components
+import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 //logo
 import logo from './assets/logo.png';
 //ants
@@ -44,12 +46,12 @@ const ants = [
     }
 ]
 
-const HomePage = () => (
+const HomePage = () => (    
     <div className="homepage">
+        <RotatingHeader src={logo}></RotatingHeader>
         <header className="hp-logo-header">
             <img src={logo} className="hp-logo" alt="logo" />
         </header>
-
         <div className="ants">
             {
             ants.map(ant => (
@@ -57,6 +59,7 @@ const HomePage = () => (
             ))
             }
         </div>
+
     </div>
 );
 
