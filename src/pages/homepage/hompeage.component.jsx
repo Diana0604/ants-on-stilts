@@ -3,6 +3,7 @@ import React from 'react';
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import CardList from '../../components/cardlist/cardlist.component';
 import BigImage from '../../components/bigimage/bigimage.component';
+import Title from '../../components/title/title.component';
 //logo
 import logo from './assets/logo.png';
 //ants
@@ -76,6 +77,10 @@ const HomePage = () => (
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <CardList elements={ants} title="Who We Are"></CardList>
         <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
+        <Title title="Check Out Our Projects!"></Title>
+        <div className="linkcrumpet">
+            <a href="#/qrumpet"><p><img src={crumpet} alt="qrumpet"></img></p></a>
+        </div>
     </div>
 );
 
