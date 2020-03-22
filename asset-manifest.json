@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Diana0604/ants-on-stilts/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Diana0604/ants-on-stilts/static/js/main.87d010a9.chunk.js",
+    "main.js.map": "/Diana0604/ants-on-stilts/static/js/main.87d010a9.chunk.js.map",
+    "runtime-main.js": "/Diana0604/ants-on-stilts/static/js/runtime-main.4bf65bb5.js",
+    "runtime-main.js.map": "/Diana0604/ants-on-stilts/static/js/runtime-main.4bf65bb5.js.map",
+    "static/js/2.6f26d44d.chunk.js": "/Diana0604/ants-on-stilts/static/js/2.6f26d44d.chunk.js",
+    "static/js/2.6f26d44d.chunk.js.map": "/Diana0604/ants-on-stilts/static/js/2.6f26d44d.chunk.js.map",
+    "index.html": "/Diana0604/ants-on-stilts/index.html",
+    "precache-manifest.3c4f19ee31048c5ef598b0df18953a83.js": "/Diana0604/ants-on-stilts/precache-manifest.3c4f19ee31048c5ef598b0df18953a83.js",
+    "service-worker.js": "/Diana0604/ants-on-stilts/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Diana0604/ants-on-stilts/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.6f26d44d.chunk.js.LICENSE.txt": "/Diana0604/ants-on-stilts/static/js/2.6f26d44d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Diana0604/ants-on-stilts/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bf65bb5.js",
+    "static/js/2.6f26d44d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.87d010a9.chunk.js"
+  ]
+}
