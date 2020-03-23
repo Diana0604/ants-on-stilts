@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7c24d86267908d2e70664669d5e9a86",
+    "revision": "8f42645136842e01fa76ca42f9629f77",
     "url": "/ants-on-stilts/index.html"
   },
   {
-    "revision": "1059b72255fec78e22db",
+    "revision": "13e578af665e64bfc972",
     "url": "/ants-on-stilts/static/css/main.c72b4ef8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ants-on-stilts/static/js/2.2e8d4d4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1059b72255fec78e22db",
-    "url": "/ants-on-stilts/static/js/main.a000698e.chunk.js"
+    "revision": "13e578af665e64bfc972",
+    "url": "/ants-on-stilts/static/js/main.ebf13c5c.chunk.js"
   },
   {
     "revision": "090c4a0576092b4f3614",
