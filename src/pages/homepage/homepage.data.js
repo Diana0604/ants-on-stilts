@@ -23,7 +23,7 @@ const ANTS = [
     {
         key: 3,
         src: eva,
-        name: "Ha Lee (Eva)",
+        name: "Eva Lee",
         title: "Keeper Keeper/Orange Keeper"
     },
     {
