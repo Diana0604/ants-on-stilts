@@ -5,7 +5,6 @@ import './navbar.styles.scss';
 
 import logo from '../../assets/logo.png';
 import crumpet from '../../assets/crumpet.png';
-//TODO -> when click crumpet/logo go to top
 class Navbar extends Component{
     
 render() {

@@ -11,7 +11,6 @@ import qrumpets from './assets/qrumpets.png';
 import {ATTEMPTSSIDEBYSIDE, GOAL_LIST, GET_THERE_LIST, RESEARCH_LIST} from './qrumpet.data';
 
 //TODO -> make SideBySide accept react components as argument so I can send a list instead of the whole <p's> thing
-//TODO -> things got too big (add margin)
 class QrumpetPage extends Component {
 
     constructor(props){
