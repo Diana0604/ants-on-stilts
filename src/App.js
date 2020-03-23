@@ -7,7 +7,7 @@ import './App.css';
 import HomePage from './pages/homepage/hompeage.component';
 import QrumpetPage from './pages/qrumpetpage/qrumpetpage.component';
 //components
-import Header from './components/header/header.component';
+import Navbar from './components/navbar/navbar.component';
 
 class App extends Component {
   constructor (){
@@ -26,7 +26,7 @@ class App extends Component {
   render () {
     return (
         <div>
-          <Header/>
+          <Navbar/>
           <Switch>
             <Route exact path="/" component={HomePage}/>
             <Route exact path="/qrumpet" component={QrumpetPage}/>
