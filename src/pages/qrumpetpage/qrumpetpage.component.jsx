@@ -1,66 +1,54 @@
-import React from 'react';
+import React, {Component} from 'react';
 //components
-import Title from '../../components/title/title.component';
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import List from '../../components/list/list.component';
+import SideBySide from '../../components/sidebyside/sidebyside.component';
 //style
 import './qrumpetpage.styles.scss';
 //assets
 import qrumpets from './assets/qrumpets.png';
-import allready from './assets/allready.png';
-import SideBySide from '../../components/sidebyside/sidebyside.component';
-//attempt list
-const attemptList = [
-    {
-        number: "Attempt 146,003.",
-        text: "Conditions fine. Sufficient supplies. All in good spirits. We persevere in expectation of success. Any day now."
-    },{
-        number: "Attempt 146,004.",
-        text: "Conditions fine. Sufficient supplies. All in good spirits. We persevere in expectation of success. Any day now."
-    },{
-        number: "Attempt 146,007.",
-        text: "Conditions fine. Sufficient supplies. Unusual song choice. We persevere in expectation of success. Any day now."
-    },{
-        number: "Attempt 146,021.",
-        text: "Conditions fine. Sufficient supplies, though a little late. All in good spirits. Any day now."
-    },{
-        number: "Attempt 146,325.",
-        text: "Any day now. We persevere. Cos this is thriller. Thriller night."
-    },{
-        number: "Attempt 147,000.",
-        text: "All in spirits"
-    },{
-        number: "Attempt 147,001.",
-        text: "Any day now. Good spirits."
-    },{
-        number: "Attempt 198,023.",
-        text: "We regret nothing."
-    }
-];
+//constants
+import {ATTEMPTSSIDEBYSIDE, GOAL_LIST, GET_THERE_LIST, RESEARCH_LIST} from './qrumpet.data';
 
-const QrumpetPage = () => (
-    <div className="qrumpetpage">
-        <RotatingHeader src={qrumpets} alt="qrumpet"></RotatingHeader>
-        <div className="container">
-            <SideBySide title="The Qrumpet Show">
-            {attemptList.map(attempt => (
-                <p key={attempt.number}><b>{attempt.number}</b> {attempt.text}</p>
-            ))}
-            <img src={allready} alt="allready"></img>
-            </SideBySide>
-            <List title="Our Goal">
-                {["Send The Crumpet Through The Wall"]}
-            </List>
-            <List title="How To Get There!">
-                {["Perseverence",
-                "Wholesomeness",
-                "Faith in the process"]}
-            </List>
-            <List title="Our Research">
-                {["Quantum Tunneling"]}
-            </List>
+//TODO -> make SideBySide accept react components as argument so I can send a list instead of the whole <p's> thing
+class QrumpetPage extends Component {
+
+    constructor(props){
+        super(props);
+        this.state = {
+            attemptSideBySideLeft: ATTEMPTSSIDEBYSIDE.elements[0],
+            attemptSideBySideRight: ATTEMPTSSIDEBYSIDE.elements[1],
+            attemptSideBySideTitle: ATTEMPTSSIDEBYSIDE.title,
+            goalList: GOAL_LIST,
+            getThereList: GET_THERE_LIST,
+            researchList: RESEARCH_LIST,
+        }
+        console.log(this.state.attemptSideBySideRight);
+    }
+
+    render (){
+     return (
+        <div className="qrumpetpage">
+            <RotatingHeader src={qrumpets} alt="qrumpet"></RotatingHeader>
+            <div className="container">
+                <SideBySide title={this.state.attemptSideBySideTitle}>
+                {this.state.attemptSideBySideLeft.map(attempt => (
+                    <p key={attempt.number}><b>{attempt.number}</b> {attempt.text}</p>
+                ))}
+                <img src={this.state.attemptSideBySideRight.src} alt={this.state.attemptSideBySideRight.alt}></img>
+                </SideBySide>
+                <List title={this.state.goalList.title}>
+                    {this.state.goalList.list}
+                </List>
+                <List title={this.state.getThereList.title}>
+                    {this.state.getThereList.list}
+                </List>
+                <List title={this.state.researchList.title}>
+                    {this.state.researchList.list}
+                </List>
+            </div>
         </div>
-    </div>
-)
+     )}
+}
 
 export default QrumpetPage;
