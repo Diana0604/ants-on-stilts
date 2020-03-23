@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ants-on-stilts/static/css/main.c72b4ef8.chunk.css",
-    "main.js": "/ants-on-stilts/static/js/main.c494f9de.chunk.js",
-    "main.js.map": "/ants-on-stilts/static/js/main.c494f9de.chunk.js.map",
+    "main.js": "/ants-on-stilts/static/js/main.a000698e.chunk.js",
+    "main.js.map": "/ants-on-stilts/static/js/main.a000698e.chunk.js.map",
     "runtime-main.js": "/ants-on-stilts/static/js/runtime-main.bba77bf4.js",
     "runtime-main.js.map": "/ants-on-stilts/static/js/runtime-main.bba77bf4.js.map",
     "static/js/2.2e8d4d4f.chunk.js": "/ants-on-stilts/static/js/2.2e8d4d4f.chunk.js",
     "static/js/2.2e8d4d4f.chunk.js.map": "/ants-on-stilts/static/js/2.2e8d4d4f.chunk.js.map",
     "index.html": "/ants-on-stilts/index.html",
-    "precache-manifest.535d2950144914bde19161b3e5b0cad0.js": "/ants-on-stilts/precache-manifest.535d2950144914bde19161b3e5b0cad0.js",
+    "precache-manifest.5eabd93c0f2d3a895b0c8f8a8aa8c282.js": "/ants-on-stilts/precache-manifest.5eabd93c0f2d3a895b0c8f8a8aa8c282.js",
     "service-worker.js": "/ants-on-stilts/service-worker.js",
     "static/css/main.c72b4ef8.chunk.css.map": "/ants-on-stilts/static/css/main.c72b4ef8.chunk.css.map",
     "static/js/2.2e8d4d4f.chunk.js.LICENSE.txt": "/ants-on-stilts/static/js/2.2e8d4d4f.chunk.js.LICENSE.txt",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.bba77bf4.js",
     "static/js/2.2e8d4d4f.chunk.js",
     "static/css/main.c72b4ef8.chunk.css",
-    "static/js/main.c494f9de.chunk.js"
+    "static/js/main.a000698e.chunk.js"
   ]
 }
