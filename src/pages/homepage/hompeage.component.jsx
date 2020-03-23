@@ -1,5 +1,7 @@
 import React from 'react';
-//components
+//other dev components
+import {Link} from 'react-router-dom';
+//my components
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import CardList from '../../components/cardlist/cardlist.component';
 import BigImage from '../../components/bigimage/bigimage.component';
@@ -79,11 +81,10 @@ const HomePage = ({handleClick}) => (
         <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
         <Title title="Check Out Our Projects!"></Title>
         <div className="linkcrumpet">
-            <a href="#/qrumpet">
-            {console.log(handleClick)}
+            <Link className="link" to="/qrumpet">
             <p><button onClick={handleClick}>Qrumpet Show</button></p>
             <p><img src={crumpet} alt="qrumpet"></img></p>
-            </a>
+            </Link>
         </div>
     </div>
 );

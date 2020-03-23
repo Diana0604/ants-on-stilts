@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route, Link } from "react-router-dom";
 //import logo from './logo.png';
 import './App.css';
 //pages
@@ -20,6 +20,10 @@ class App extends Component {
     window.scrollTo(0, 0);
   }
 
+  componentDidUpdate() {
+    
+  }
+
 
 
   render () {
@@ -28,7 +32,8 @@ class App extends Component {
         <div>
           <Switch>
             <Route exact path="/" render={() => <HomePage handleClick={this.clickQrumpetHandleClick}></HomePage>} />
-            <Route exact path="/qrumpet" component={QrumpetPage} onClick={this.clickQrumpetHandleClick}/>
+            <Route exact path="/qrumpet" component={QrumpetPage}/>
+           
           </Switch>
         </div>
       </HashRouter>
