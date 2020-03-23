@@ -1,6 +1,8 @@
 import React from 'react';
 //my comonents
 import Title from '../../components/title/title.component';
+//style
+import './list.styles.scss';
 
 const List = (props) => (
     <div className="list">

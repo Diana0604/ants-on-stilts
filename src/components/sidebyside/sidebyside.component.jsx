@@ -5,7 +5,7 @@ import Title from '../../components/title/title.component';
 import './sidebyside.component.scss';
 
 const SideBySide = (props) => (
-    <div>
+    <div class='sidebyside-containe'>
         <Title title={props.title}></Title>
         <div className="sidebyside">
             <div className="col">
