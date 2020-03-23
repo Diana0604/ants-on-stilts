@@ -1,6 +1,6 @@
 import React from 'react';
 //other dev components
-import {Link} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 //my components
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import CardList from '../../components/cardlist/cardlist.component';
@@ -74,19 +74,17 @@ const ants = [
     }
 ]
 
-const HomePage = ({handleClick}) => (    
+const HomePage = ({history}) => (    
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <CardList elements={ants} title="Who We Are"></CardList>
         <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
         <Title title="Check Out Our Projects!"></Title>
         <div className="linkcrumpet">
-            <Link className="link" to="/qrumpet">
-            <p><button onClick={handleClick}>Qrumpet Show</button></p>
             <p><img src={crumpet} alt="qrumpet"></img></p>
-            </Link>
+            <p><button onClick={() => history.push('/qrumpet')}>Qrumpet Show</button></p>
         </div>
     </div>
 );
 
-export default HomePage;
+export default withRouter(HomePage);

@@ -28,15 +28,12 @@ class App extends Component {
 
   render () {
     return (
-      <HashRouter basename = "/ants-on-stilts">
         <div>
           <Switch>
-            <Route exact path="/" render={() => <HomePage handleClick={this.clickQrumpetHandleClick}></HomePage>} />
+            <Route exact path="/" component={HomePage}/>
             <Route exact path="/qrumpet" component={QrumpetPage}/>
-           
           </Switch>
         </div>
-      </HashRouter>
     );
   }
 }
