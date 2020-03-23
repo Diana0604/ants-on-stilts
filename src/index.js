@@ -1,26 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
 import {BrowserRouter} from 'react-router-dom';
-=======
->>>>>>> Initialize project using Create React App
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
-<<<<<<< HEAD
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>
     ,
-=======
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
->>>>>>> Initialize project using Create React App
   document.getElementById('root')
 );
 
