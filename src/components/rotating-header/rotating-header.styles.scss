@@ -1,0 +1,29 @@
+//general styles
+.rotating-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    .header-image {
+        height: 40vmin;
+        pointer-events: none;
+    }
+}
+//rotation of logo
+@media (prefers-reduced-motion: no-preference) {
+    .header-image {
+      animation: Full-Spin infinite 20s linear;
+    }
+}
+@keyframes Full-Spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

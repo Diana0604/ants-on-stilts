@@ -1,0 +1,14 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #95dada;
+    padding: 25px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    text-align: center;
+    margin-top: 10px;
+    background-color:#FE1E9A;
+    .card-img {
+        height: 150px;
+    }
+}

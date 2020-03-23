@@ -1,0 +1,21 @@
+.sidebyside-containe{
+    //general things
+    width: 85vw;
+    margin: auto;
+
+    .sidebyside{
+        //my things
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .sidebyside{
+        grid-template-columns: 1fr;
+    }
+}
