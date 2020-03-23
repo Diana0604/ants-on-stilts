@@ -1,7 +1,6 @@
 //TODO -> put all (shared?) assets in src/assets instead of individual
 import React, {Component} from 'react';
 import { Switch, Route } from "react-router-dom";
-//import logo from './logo.png';
 import './App.css';
 //pages
 import HomePage from './pages/homepage/hompeage.component';
