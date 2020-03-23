@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 //other dev components
 import {withRouter} from 'react-router-dom';
 //my components
@@ -74,7 +74,13 @@ const ants = [
     }
 ]
 
-const HomePage = ({history}) => (    
+class HomePage extends Component {
+
+    componentWillUpdate(){
+        console.log('will update');
+    }
+
+    render () { return (    
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <CardList elements={ants} title="Who We Are"></CardList>
@@ -82,9 +88,15 @@ const HomePage = ({history}) => (
         <Title title="Check Out Our Projects!"></Title>
         <div className="linkcrumpet">
             <p><img src={crumpet} alt="qrumpet"></img></p>
-            <p><button onClick={() => history.push('/qrumpet')}>Qrumpet Show</button></p>
+            <p><button onClick={() => {
+                this.props.history.push('/qrumpet');
+                window.scrollTo(0, 0);
+            }
+            }>Qrumpet Show</button></p>
         </div>
     </div>
-);
+    );
+    }
+}
 
 export default withRouter(HomePage);

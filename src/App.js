@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { HashRouter, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 //import logo from './logo.png';
 import './App.css';
 //pages
@@ -17,14 +17,8 @@ class App extends Component {
 
   clickQrumpetHandleClick = e => {
     this.setState({page: 'qrumpet'});
-    window.scrollTo(0, 0);
-  }
-
-  componentDidUpdate() {
     
   }
-
-
 
   render () {
     return (
