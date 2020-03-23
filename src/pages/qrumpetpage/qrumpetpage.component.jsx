@@ -2,6 +2,7 @@ import React from 'react';
 //components
 import Title from '../../components/title/title.component';
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
+import List from '../../components/list/list.component';
 //style
 import './qrumpetpage.styles.scss';
 //assets
@@ -41,27 +42,23 @@ const QrumpetPage = () => (
     <div className="qrumpetpage">
         <RotatingHeader src={qrumpets} alt="qrumpet"></RotatingHeader>
         <div className="container">
-            <Title title="The Qrumpet Show"></Title>
-            <SideBySide>
+            <SideBySide title="The Qrumpet Show">
             {attemptList.map(attempt => (
                 <p key={attempt.number}><b>{attempt.number}</b> {attempt.text}</p>
             ))}
             <img src={allready} alt="allready"></img>
             </SideBySide>
-            <Title title="Our Goal"></Title>
-            <ul>
-                <li>Send The Crumpet Through The Wall</li>
-            </ul>
-            <Title title="How To Get There!"></Title>
-            <ul>
-                <li>Perseverence</li>
-                <li>Wholesomeness</li>
-                <li>Faith in the process</li>
-            </ul>
-            <Title title="Our Research"></Title>
-            <ul>
-                <li>Quantum Tunneling</li>
-            </ul>
+            <List title="Our Goal">
+                {["Send The Crumpet Through The Wall"]}
+            </List>
+            <List title="How To Get There!">
+                {["Perseverence",
+                "Wholesomeness",
+                "Faith in the process"]}
+            </List>
+            <List title="Our Research">
+                {["Quantum Tunneling"]}
+            </List>
         </div>
     </div>
 )
