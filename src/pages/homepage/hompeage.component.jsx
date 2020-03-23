@@ -72,7 +72,7 @@ const ants = [
     }
 ]
 
-const HomePage = () => (    
+const HomePage = ({handleClick}) => (    
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
         <CardList elements={ants} title="Who We Are"></CardList>
@@ -80,7 +80,8 @@ const HomePage = () => (
         <Title title="Check Out Our Projects!"></Title>
         <div className="linkcrumpet">
             <a href="#/qrumpet">
-            <p><button>Qrumpet Show</button></p>
+            {console.log(handleClick)}
+            <p><button onClick={handleClick}>Qrumpet Show</button></p>
             <p><img src={crumpet} alt="qrumpet"></img></p>
             </a>
         </div>
