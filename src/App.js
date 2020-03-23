@@ -1,3 +1,4 @@
+//TODO -> put all (shared?) assets in src/assets instead of individual
 import React, {Component} from 'react';
 import { Switch, Route } from "react-router-dom";
 //import logo from './logo.png';
@@ -5,6 +6,8 @@ import './App.css';
 //pages
 import HomePage from './pages/homepage/hompeage.component';
 import QrumpetPage from './pages/qrumpetpage/qrumpetpage.component';
+//components
+import Header from './components/header/header.component';
 
 class App extends Component {
   constructor (){
@@ -23,6 +26,7 @@ class App extends Component {
   render () {
     return (
         <div>
+          <Header/>
           <Switch>
             <Route exact path="/" component={HomePage}/>
             <Route exact path="/qrumpet" component={QrumpetPage}/>
