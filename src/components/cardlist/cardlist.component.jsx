@@ -1,7 +1,6 @@
 import React from 'react';
 //components
 import Card from '../card/card.component';
-import Title from '../title/title.component'
 //styles
 import './cardlist.styles.scss';
 

@@ -6,6 +6,7 @@ import RotatingHeader from '../../components/rotating-header/rotating-header.com
 import CardList from '../../components/cardlist/cardlist.component';
 import BigImage from '../../components/bigimage/bigimage.component';
 import Titled from '../../components/titled/titled.component';
+import Button from '../../components/custom-button/custom-button.component';
 //logo
 import logo from '../../assets/logo.svg'
 //ants
@@ -28,6 +29,11 @@ class HomePage extends Component {
 
     componentWillUpdate(){
     }
+
+    handleClickQrumpet = () => {
+        this.props.history.push('/qrumpet');
+        window.scrollTo(0,0);
+    }
     //TODO -> titles ind 'db'
     //TODO linkcrumpet to component
 
@@ -43,11 +49,7 @@ class HomePage extends Component {
         <Titled title="Check Out Our Projects!">
             <div className="linkcrumpet">
                 <p><img src={crumpet} alt="qrumpet"></img></p>
-                <p><button onClick={() => {
-                    this.props.history.push('/qrumpet');
-                    window.scrollTo(0, 0);
-                }
-                }>Qrumpet Show</button></p>
+                <Button handleClick={this.handleClickQrumpet}>Qrumpet Show</Button>
             </div>
         </Titled>
     </div>

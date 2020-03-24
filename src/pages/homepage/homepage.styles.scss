@@ -6,22 +6,4 @@
     img {
         max-width: 100%;
     }
-    button {
-        display:inline-block;
-        padding:0.35em 1.2em;
-        border:0.1em solid #a86500;
-        background-color: #a86500;
-        margin:0 0.3em 0.3em 0;
-        border-radius:0.12em;
-        box-sizing: border-box;
-        color:white;
-        text-align:center;
-        transition: all 0.2s;
-        width: 150px;
-        height: 40px;
-        font-size: 100%;
-        &:hover{
-            background-color:#8c5400;
-        }
-    }
 }

@@ -1,0 +1,27 @@
+button {
+    display:inline-block;
+    padding:0.35em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    color:white;
+    text-align:center;
+    transition: all 0.2s;
+    width: 150px;
+    height: 40px;
+    font-size: 100%;
+    border:0.1em solid #FE1E9A;
+    background-color: #FE1E9A;
+    &:hover{
+        background-color:rgb(165, 0, 91);
+        border:0.1em solid rgb(165, 0, 91);
+    }
+}
+.qrumpet{
+    border:0.1em solid #a86500;
+    background-color: #a86500;
+    &:hover{
+        background-color:#8c5400;
+        border:0.1em solid #8c5400;
+    }
+}
