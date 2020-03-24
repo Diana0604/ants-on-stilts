@@ -6,26 +6,10 @@
   position: fixed;
   top: 0;
   background-color: #282c34;
-
-  .logo-container{
-    height: 100%;
-    width: 70px;
-    padding-left: 10px;
-    .logo {
+    .logo, .option {
       height: 100%;
       width: 70px;
+      margin: auto 15px;
+      cursor: pointer;
     }
-  }
-  .options {
-    .option-container {
-      margin: 0;
-      height: 100%;
-      width: 70px;
-      padding-right: 10px;
-      .option {
-        height: 100%;
-        width: 70px;
-      }
-    }
-  }
 }

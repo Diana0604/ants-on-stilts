@@ -1,30 +1,41 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 
 import './navbar.styles.scss';
 
 
 import {ReactComponent as Logo} from '../../assets/logo.svg';
 import {ReactComponent as Crumpet} from '../../assets/crumpet.svg';
+
 class Navbar extends Component{
-    
-render() {
-    return (
-        <div className="navbar">
-            <Link className="logo-container" to="/">
-                <Logo className="logo" onClick={() => {
-                    window.scrollTo(0,0);
-                }}></Logo>
-            </Link>
-            <div className="options">
-                <Link className="option-container" to="/qrumpet">
-                <Crumpet className="option" onClick = {() => {
-                    window.scrollTo(0,0);
-                }}></Crumpet>
-                </Link>
+
+    constructor(props){
+        super(props)
+
+        this.state = {
+            page: "homepage"
+        }
+    }
+
+    handleClickLogo = () => {
+        this.props.history.replace('/');
+        window.scrollTo(0,0);
+    }
+    handleClickCrumpet = () => {
+        this.props.history.replace('/qrumpet');
+        window.scrollTo(0,0);
+    }
+
+    render() {
+        return (
+            <div className="navbar">
+                <Logo className="logo" onClick={this.handleClickLogo}></Logo>
+                <div className="options">
+                    <Crumpet className="option" onClick = {this.handleClickCrumpet}></Crumpet>
+                </div>
             </div>
-        </div>
-    )}
+        )
+    }
 }
 
-export default Navbar;
+export default withRouter(Navbar);
