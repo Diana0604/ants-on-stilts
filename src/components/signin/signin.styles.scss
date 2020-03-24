@@ -1,4 +1,12 @@
 .signin{
-    margin-top: 100px;
-    width: 30%;
+    margin-left: 33%;
+    margin-top: 10%;
+    width: 33%;
+    @media (max-width: 700px){
+        margin-top: 30%;
+        font-size: small;
+        h2 { 
+            font-size: medium;
+        }
+    }
 }
