@@ -41,7 +41,7 @@ const ANTS = [
     {
         key: 6,
         src: paul,
-        name: "Paule H. Barns",
+        name: "Paul H. Barnes",
         title: "Kind Giant, Keeper of Tech"
     },
     {
