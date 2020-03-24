@@ -7,6 +7,22 @@ div {
     background-color: inherit;
 }
 
+h1 {
+    font-size: 400%;
+}
+
+@media(max-width: 900px){
+    h1{
+        font-size: 300%;
+    }
+}
+@media(max-width: 700px){
+    h1{
+        font-size: 200%;
+    }
+}
+
+
 body {
     background-color: #5e89ff;
     font-family: "Roboto";

@@ -9,17 +9,11 @@
     margin-top: 10px;
     background-color:#FE1E9A;
     align-items: center;
-    
+
     .card-img {
         height: 150px;
     }
-
-    @media (max-width: 700px){
-        h1{
-            font-size: 150%;
-        }
-        .card-img {
-            width: 200px;
-        }
+    .card-img {
+        width: 200px;
     }
 }
