@@ -7,7 +7,7 @@ import CardList from '../../components/cardlist/cardlist.component';
 import BigImage from '../../components/bigimage/bigimage.component';
 import Title from '../../components/title/title.component';
 //logo
-import logo from './assets/logo.png';
+import logo from '../../assets/logo.svg'
 //ants
 import crumpet from './assets/crumpet.png';
 //manifesto

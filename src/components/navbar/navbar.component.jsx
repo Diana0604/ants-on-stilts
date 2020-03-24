@@ -3,7 +3,9 @@ import {Link} from 'react-router-dom';
 
 import './navbar.styles.scss';
 
-import logo from '../../assets/logo.png';
+
+import {ReactComponent as Logo} from '../../assets/logo.svg';
+import {ReactComponent as Crumpet} from '../../assets/crumpet.svg';
 import crumpet from '../../assets/crumpet.png';
 class Navbar extends Component{
     
@@ -11,15 +13,15 @@ render() {
     return (
         <div className="navbar">
             <Link className="logo-container" to="/">
-                <img className="logo" src={logo} alt="logo" onClick={() => {
+                <Logo className="logo" onClick={() => {
                     window.scrollTo(0,0);
-                }}></img>
+                }}></Logo>
             </Link>
             <div className="options">
-                <Link className="option" to="/qrumpet">
-                <img className="logo" src={crumpet} alt="crumpet" onClick={() => {
+                <Link className="option-container" to="/qrumpet">
+                <Crumpet className="option" onClick = {() => {
                     window.scrollTo(0,0);
-                }}></img>
+                }}></Crumpet>
                 </Link>
             </div>
         </div>
