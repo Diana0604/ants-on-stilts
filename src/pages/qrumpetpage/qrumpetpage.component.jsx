@@ -7,7 +7,7 @@ import SideBySide from '../../components/sidebyside/sidebyside.component';
 //style
 import './qrumpetpage.styles.scss';
 //assets
-import qrumpets from './assets/qrumpets.png';
+import qrumpets from '../../assets/qrumpets.png';
 //constants
 import {ATTEMPTSSIDEBYSIDE, GOAL_LIST, GET_THERE_LIST, RESEARCH_LIST} from './qrumpet.data';
 

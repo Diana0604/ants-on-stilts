@@ -9,9 +9,9 @@ import Titled from '../../components/titled/titled.component';
 //logo
 import logo from '../../assets/logo.svg'
 //ants
-import crumpet from './assets/crumpet.png';
+import crumpet from '../../assets/crumpet.png';
 //manifesto
-import manifesto from './assets/manifesto.png';
+import manifesto from '../../assets/manifesto.png';
 //styles
 import './homepage.styles.scss';
 //constants

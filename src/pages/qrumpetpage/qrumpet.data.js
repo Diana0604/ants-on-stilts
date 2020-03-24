@@ -1,4 +1,4 @@
-import allready from './assets/allready.png';
+import allready from '../../assets/allready.png';
 const ATTEMPTSSIDEBYSIDE = {
     elements: 
     [

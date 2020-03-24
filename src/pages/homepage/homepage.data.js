@@ -1,11 +1,11 @@
-import andy from './assets/Andy.png';
-import diana from './assets/Diana.png';
-import eva from './assets/Eva.png';
-import lucy from './assets/Lucy.png';
-import mischa from './assets/Mischa.png';
-import paul from './assets/Paul.png';
-import qiu from './assets/Qiu.png';
-import crumpet from './assets/crumpet.png';
+import andy from '../../assets/Andy.png';
+import diana from '../../assets/Diana.png';
+import eva from '../../assets/Eva.png';
+import lucy from '../../assets/Lucy.png';
+import mischa from '../../assets/Mischa.png';
+import paul from '../../assets/Paul.png';
+import qiu from '../../assets/Qiu.png';
+import crumpet from '../../assets/crumpet.png';
 
 const ANTS = [
     {
