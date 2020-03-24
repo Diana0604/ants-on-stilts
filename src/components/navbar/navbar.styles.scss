@@ -1,4 +1,38 @@
 .navbar {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: #282c34;
+
+  .logo-container{
+    height: 100%;
+    width: 70px;
+    padding-left: 10px;
+    .logo {
+      height: 100%;
+      width: 70px;
+    }
+  }
+  .options {
+    background-color: inherit;
+    .option-container {
+      margin: 0;
+      height: 100%;
+      width: 70px;
+      padding-right: 10px;
+      background-color: none;
+      .option {
+        height: 100%;
+        width: 70px;
+      }
+    }
+  }
+}
+/*
+.navbar {
     height: 70px;
     width: 100%;
     display: flex;
@@ -35,4 +69,4 @@
       }
     }
   }
-  
+  */
