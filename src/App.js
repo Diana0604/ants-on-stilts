@@ -1,4 +1,5 @@
 //TODO -> put all (shared?) assets in src/assets instead of individual
+//TODO -> props write everything consistently ({title, blabla}) instead of (props) and use {...props} where appropriate
 import React, {Component} from 'react';
 import { Switch, Route } from "react-router-dom";
 import './App.css';

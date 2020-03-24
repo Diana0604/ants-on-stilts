@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 //components
+import Titled from '../../components/titled/titled.component';
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import List from '../../components/list/list.component';
 import SideBySide from '../../components/sidebyside/sidebyside.component';
@@ -31,21 +32,29 @@ class QrumpetPage extends Component {
         <div className="qrumpetpage">
             <RotatingHeader src={qrumpets} alt="qrumpet"></RotatingHeader>
             <div className="container">
-                <SideBySide title={this.state.attemptSideBySideTitle}>
-                {this.state.attemptSideBySideLeft.map(attempt => (
-                    <p key={attempt.number}><b>{attempt.number}</b> {attempt.text}</p>
-                ))}
-                <img src={this.state.attemptSideBySideRight.src} alt={this.state.attemptSideBySideRight.alt}></img>
-                </SideBySide>
-                <List title={this.state.goalList.title}>
-                    {this.state.goalList.list}
-                </List>
-                <List title={this.state.getThereList.title}>
-                    {this.state.getThereList.list}
-                </List>
-                <List title={this.state.researchList.title}>
-                    {this.state.researchList.list}
-                </List>
+                <Titled title={this.state.attemptSideBySideTitle}>
+                    <SideBySide>
+                        {this.state.attemptSideBySideLeft.map(attempt => (
+                            <p key={attempt.number}><b>{attempt.number}</b> {attempt.text}</p>
+                        ))}
+                        <img src={this.state.attemptSideBySideRight.src} alt={this.state.attemptSideBySideRight.alt}></img>
+                    </SideBySide>
+                </Titled>
+                <Titled title={this.state.goalList.title}>
+                    <List>
+                        {this.state.goalList.list}
+                    </List>
+                </Titled>
+                <Titled title={this.state.getThereList.title}>
+                    <List>
+                        {this.state.getThereList.list}
+                    </List>
+                </Titled>
+                <Titled title={this.state.researchList.title}>
+                    <List>
+                        {this.state.researchList.list}
+                    </List>
+                </Titled>
             </div>
         </div>
      )}

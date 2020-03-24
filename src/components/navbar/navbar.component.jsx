@@ -6,7 +6,6 @@ import './navbar.styles.scss';
 
 import {ReactComponent as Logo} from '../../assets/logo.svg';
 import {ReactComponent as Crumpet} from '../../assets/crumpet.svg';
-import crumpet from '../../assets/crumpet.png';
 class Navbar extends Component{
     
 render() {

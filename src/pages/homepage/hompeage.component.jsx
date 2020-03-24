@@ -5,7 +5,7 @@ import {withRouter} from 'react-router-dom';
 import RotatingHeader from '../../components/rotating-header/rotating-header.component';
 import CardList from '../../components/cardlist/cardlist.component';
 import BigImage from '../../components/bigimage/bigimage.component';
-import Title from '../../components/title/title.component';
+import Titled from '../../components/titled/titled.component';
 //logo
 import logo from '../../assets/logo.svg'
 //ants
@@ -27,23 +27,29 @@ class HomePage extends Component {
     }
 
     componentWillUpdate(){
-        console.log('will update');
     }
+    //TODO -> titles ind 'db'
+    //TODO linkcrumpet to component
 
     render () { return (    
     <div className="homepage">
         <RotatingHeader src={logo} alt="logo"></RotatingHeader>
-        <CardList elements={this.state.ants} title="Who We Are"></CardList>
-        <BigImage src={manifesto} title="Our Manifesto" alt="manifesto"></BigImage>
-        <Title title="Check Out Our Projects!"></Title>
-        <div className="linkcrumpet">
-            <p><img src={crumpet} alt="qrumpet"></img></p>
-            <p><button onClick={() => {
-                this.props.history.push('/qrumpet');
-                window.scrollTo(0, 0);
-            }
-            }>Qrumpet Show</button></p>
-        </div>
+        <Titled title="Who We Are">
+            <CardList elements={this.state.ants}></CardList>
+        </Titled>
+        <Titled title="Our Manifesto">
+            <BigImage src={manifesto} alt="manifesto"></BigImage>
+        </Titled>
+        <Titled title="Check Out Our Projects!">
+            <div className="linkcrumpet">
+                <p><img src={crumpet} alt="qrumpet"></img></p>
+                <p><button onClick={() => {
+                    this.props.history.push('/qrumpet');
+                    window.scrollTo(0, 0);
+                }
+                }>Qrumpet Show</button></p>
+            </div>
+        </Titled>
     </div>
     );
     }
