@@ -4,5 +4,9 @@ a{
 }
 
 div {
+    background-color: inherit;
+}
+
+body {
     background-color: #5e89ff;
 }
