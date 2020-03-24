@@ -3,7 +3,7 @@ import React from 'react';
 import './sidebyside.component.scss';
 
 const SideBySide = (props) => (
-    <div class='sidebyside-containe'>
+    <div className='sidebyside-containe'>
         <div className="sidebyside">
             <div className="col">
                 {props.children[0]}

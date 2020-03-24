@@ -31,7 +31,6 @@ class QrumpetPage extends Component {
      return (
         <div className="qrumpetpage">
             <RotatingHeader src={qrumpets} alt="qrumpet"></RotatingHeader>
-            <div className="container">
                 <Titled title={this.state.attemptSideBySideTitle}>
                     <SideBySide>
                         {this.state.attemptSideBySideLeft.map(attempt => (
@@ -55,7 +54,11 @@ class QrumpetPage extends Component {
                         {this.state.researchList.list}
                     </List>
                 </Titled>
-            </div>
+                <Titled title="Our Results">
+                    <div className="qrumpetshow-container">
+                            <iframe title="qrumpetshow" align="middle" src="https://drive.google.com/file/d/1xMV2ZOwUVxByyQV6P5ZVvNTH_wZcNTcR/preview" width="640" height="480"></iframe>
+                    </div>
+            </Titled>
         </div>
      )}
 }

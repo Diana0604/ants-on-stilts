@@ -7,7 +7,6 @@ import './cardlist.styles.scss';
 
 const CardList = (props) => (
   <div className="card-list-wrapper">
-    <Title title={props.title}></Title>
     <div className = "card-list">
       {
           props.elements.map(element => (
