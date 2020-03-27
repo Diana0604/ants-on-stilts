@@ -29,7 +29,7 @@ const ANTS = [
     {
         key: 4,
         src: lucy,
-        name: "Lucy",
+        name: "Lou Curtis",
         title: "Track Keeper"
     },
     {
