@@ -59,6 +59,12 @@ class QrumpetPage extends Component {
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/PisAdRFnzFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
             </Titled>
+            <Titled title="Wanna try it at home?">
+            <div className="instructions">You just need to find 6 friends to follow this video tutorial!</div>
+            <div className="qrumpetshow-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jx0W_llR4SI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    </Titled>
         </div>
      )}
 }
