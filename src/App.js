@@ -6,6 +6,7 @@ import './App.css';
 import HomePage from './pages/homepage/hompeage.component';
 import QrumpetPage from './pages/qrumpetpage/qrumpetpage.component';
 import SignIn from './pages/signinpage/signinpage.component';
+import SaveDiana from './pages/savediana/savediana.component';
 //components
 import Navbar from './components/navbar/navbar.component';
 
@@ -31,6 +32,7 @@ class App extends Component {
             <Route exact path="/" component={HomePage}/>
             <Route exact path="/qrumpet" component={QrumpetPage}/>
             <Route exact path="/login" component={SignIn}/>
+            <Route exact path="/savediana" component={SaveDiana}/>
           </Switch>
         </div>
     );
