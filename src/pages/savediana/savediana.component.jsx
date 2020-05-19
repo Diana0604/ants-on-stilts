@@ -29,8 +29,10 @@ class SaveDiana extends Component {
     render (){
         if(this.state.saved){
             return(
-                <div className="signin">
+                
+                <div className="savediana">
                 <iframe src="https://drive.google.com/file/d/13QCxj70QOGcZ9OA1AB6vypJlgF-oSHRu/preview" width="640" height="480"></iframe>
+                <p><bold>NOTE:</bold> This should be a live stream but didn't have time to connect/test it</p>
                 </div>
             )
         }
