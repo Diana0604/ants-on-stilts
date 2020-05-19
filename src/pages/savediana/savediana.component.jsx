@@ -30,7 +30,7 @@ class SaveDiana extends Component {
         if(this.state.saved){
             return(
                 <div className="signin">
-                    <h2>YOU HAVE SAVED DIANA</h2>
+                <iframe src="https://drive.google.com/file/d/13QCxj70QOGcZ9OA1AB6vypJlgF-oSHRu/preview" width="640" height="480"></iframe>
                 </div>
             )
         }
