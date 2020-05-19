@@ -15,7 +15,7 @@ class SaveDiana extends Component {
 
     handleSubmit = event => {
         event.preventDefault();
-        if(this.state.password === "savediana"){
+        if(this.state.password === "10964"){
             this.setState({saved: true});
         }
         this.setState({ password: ''});
